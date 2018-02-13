@@ -1,0 +1,26 @@
+{
+  "name": "sample-notification-nodejs-socket",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using for exhibiting Notification Feature!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arunk2/simple-notification-socket.io"
+  },
+  "keywords": [
+    "node",
+    "notification"
+  ],
+  "author": "arunk2",
+  "contributors": [
+    "https://github.com/arunk2/"
+  ],
+  "license": "MIT"
+}
