@@ -1,7 +1,7 @@
 # Simple Notification with socket.io
 Simple implementation of 'Web' client notification with node.js and socket.io
 
-# How to run it?
+# How to use it?
 
 ## Start Server:
 1. Clone the project 
@@ -15,11 +15,10 @@ $ npm install
 $ node server.js 
 ```
 
-## Start one/multiple client:
+## Start one or multiple Clients:
 1. Open browser
-2. open the URL http://localhost:3000/client
-* Open multiple browsers and go to the same url
+2. Go to URL http://localhost:3000/client
+3. Optional: open multiple browsers and go to the same url
 
 ## Send Notification:
-1. Open browser and go to or CURL to the following URL
-http://localhost:3000/push?message=HiNotificationMessage
+1. Open browser and go to (or CURL to) the URL http://localhost:3000/push?message=HiNotificationMessage
